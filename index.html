@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Citas Médicas</title>
+    <style>
+        #cero{
+            background-image: url(https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?size=626&ext=jpg&ga=GA1.2.1149860058.1620691200);
+            margin-top: -25px;
+            padding: 0.001px; 
+            
+        }
+        #one{
+            padding-left: 60px;
+            font-size: 80px;
+        }
+        .two{
+            color: rgb(85, 155, 224);
+        }
+        .three{
+            color: rgb(40, 88, 133);
+        }
+        .four{position: absolute;
+            top:40px;
+            right: 40px;
+        }
+        #five{
+            position: relative;
+            right: 25px;
+            background-color: antiquewhite;
+            text-decoration: none;
+            padding: 10px ;
+        }
+        #six{
+            position: relative;
+            right: 25px;
+            background-color: antiquewhite;
+            text-decoration: none;
+            padding: 10px ;
+        }
+        #seven{
+            position: relative;
+            right: 25px;
+            background-color: antiquewhite;
+            text-decoration: none;
+            padding: 10px ;
+        }
+        #eight{
+            text-align: center;
+            background-image:url(https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?size=626&ext=jpg&ga=GA1.2.1149860058.1620691200 );
+        }
+        #nine{
+            position:absolute;
+            right : 50px;
+            top: 350px;
+            border: 8px inset rgb(91, 164, 247);
+        }
+        .ten{
+            font-weight: bold;
+        }
+        button{
+            width: 100px;
+        }
+        hr{
+            border: none; 
+            height: 3px; 
+            color: #333; 
+            background-color: #333
+
+
+        }
+        body{background-image: url(https://image.freepik.com/foto-gratis/resumen-borroso-interior-hospital-clinica-lujo-hermoso-fondo_103324-624.jpg );
+            background-size: cover;
+            margin: 50px;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body > 
+    <div id="cero"><h1 id="one"><span class="two">Va</span><span class="three">Q</span><span class="two">nate</span></h1><h3 class="four"> <a id='five' href="nuevo1.html"> Home</a> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; <a id='six' href="nuevo2.html">Reserva</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a id='seven' href="nuevo4.html">Pago</a></h3></div>
+    <div id="eight"><h1>Reserva</h1></div>
+	<h2>Información </h2><hr>
+	<form action="nuevo3.html" method="POST">
+            <table cellpadding:5> 
+            	 <tr>
+                    <td><label class='ten'for="">Nombres:</label></td>
+                    <td><input type="text"  minlenght="4" maxlenght="100" placeholder="Ingrese su Nombres"required size="30"></td>
+                </tr>
+                <tr>
+                    <td><label class='ten' for="">Primer Apellido:</label></td>
+                    <td><input type="text"  minlenght="4" maxlenght="100" placeholder="Ingresa sus Apellidos" required size="40"></td>
+                </tr>
+                <tr>
+                    <td><label class='ten' for="">Correo Electrónico:</label></td>
+                    <td><input type="Email" placeholder="_____@gmail.com" required size="20"></td>
+                </tr>
+                <tr>
+                    <td><label class='ten' for="">Número de Teléfono:</label></td>
+                    <td><input type="tel" placeholder="958_____"minlength="9" required maxlength="9"  ></td>
+                </tr>
+                <tr>
+                    <td><label class='ten' for="">Doctor:</label></td>
+                    <td><select name="country" id="country" required>
+                        
+                        <option value="">Selecione un Doctor </option>
+                        <option value="">Dr.Edward Jenner </option>
+                        <option value="">Dr.Elizabeth Blackwell </option>
+                        <option value="">Dr.Louis Pasteur</option>
+                        <option value="">Dr.Alexander Fleming</option>
+                        <option value="">Dr.Mario Martinez</option>
+                        </optgroup>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label class='ten' for="">Fecha :</label></td>
+                    <td><input type="date" value="2021-05-13" min="2021-05-13" max="2100-01-01" required size="40"></td>
+                </tr>
+                <td><label  class='ten' for="">Hora:</label></td>
+                    <td><select name="country" id="country" required>
+                        <option value="">Selecione la Hora </option>
+                        <option value="">7:00 - 12:00 am </option>
+                        <option value=""> 1:00 - 4:00 pm</option>
+                        <option value="">6:00 - 9:00 pm</option>
+                        </optgroup>
+                        </select></td>
+                <tr>
+                    <td><label  class='ten' for="">Especialidad:</label></td>
+                    <td><select name="country" id="country" required>
+                        
+                        <option value="">Selecione la especialidad </option>
+                        <option value="">Alergología </option>
+                        <option value="">Anestesiología </option>
+                        <option value="">Angiología</option>
+                        <option value="">Cardiología</option>
+                        <option value="">Endocrinología</option>
+                        <option value="">Estomatología</option>
+                        <option value="">Gastroenterología</option>
+                        <option value="">Geriatría</option>
+                        <option value="">Hematología</option>
+                        </optgroup>
+                        </select></td>
+                </tr>
+                <tr>
+                	<td><label class='ten' for="">Razón de la visita:</label></td>
+                	<td><textarea rows="15px" cols="90px" required ></textarea></td>
+                </tr>
+                <tr><td><button>Enviar</button></td></tr>
+            </table>
+    </form>
+    <img id='nine'src="https://www.65ymas.com/uploads/s1/34/15/8/tres-aplicaciones-para-gestionar-tus-citas-medicas-y-no-olvidarte-de-nada-big-stock.jpeg" width='400px'>
+    <hr>
+</body>
+<script>
+
+    (function(){
+
+    var fecha = new Date();
+    document.write(fecha);
+
+    console.log(fecha.getHours()-12);
+    console.log(fecha.getMinutes());
+    console.log(fecha.getSeconds());
+    
+    var semana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado']
+
+    console.log(fecha.getDay());
+    console.log(fecha.getDate());
+    console.log(fecha.getMonth());
+    console.log(fecha.getFullYear());
+
+    }())
+
+    </script>
+</html>
+</html>
+
